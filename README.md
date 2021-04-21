@@ -16,14 +16,14 @@
 ---------
 #### gravity 와 layout_gravity
 * gravity : view 안에 있는 content(내용)을 정렬한다.
-* layout_gravity : view 또는 layout을 그것에 부모에 대하여 정렬한다.
-▼ 예시 : (가장 기본인 상태. gravity와 layout_gravity 속성 값 모두 주지 않은 상태)
-```
-<TextView
-    android:layout_width="350dp"
-    android:layout_height="80dp"
-    android:text="레이아웃의 너비와 높이 구하기"
-    android:textSize="24sp"
-    android:background="#D6E1F5" />
-```
+* layout_gravity : view 또는 layout을 그것에 부모에 대하여 정렬한다.       
+▼ 예시 ▼     
+왼쪽 - 기본 상태(gravity와 layout_gravity 모두 설정XX)      
+가운데 - gravity가 "center"일 때     
+오른쪽 - layout_gravity가 "center"일 때
 
+<img width="300" alt="gravityXXlayout_gravityXX" src="https://user-images.githubusercontent.com/68562176/115569447-303faa80-a2f8-11eb-9ad0-510a3abe692f.png">  <img width="300" alt="gravityOO" src="https://user-images.githubusercontent.com/68562176/115570397-0a66d580-a2f9-11eb-9c3e-2523351942d0.png">   <img width="300" alt="layout_gravityOO" src="https://user-images.githubusercontent.com/68562176/115570450-1783c480-a2f9-11eb-8166-95bb29a44dff.png">
+
+앱 실행화면을 보면 정사각형 모양의 레이아웃 3개가 모두 가운데에 정렬되어 있다.         
+(view의 안쪽 요소를 정렬하는 것이 아니라, **layout을 전체 화면인 부모 레이아웃(FrameLayout)에 대하여 가운데 center에 정렬하는 것이다.**)         
+-> ```android:layout_gravity="center"``` 
