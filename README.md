@@ -1,6 +1,6 @@
 # HW3_2_1223223
-> 안드로이드 스튜디오(자바 활용) 공부 - 스마트 모바일 프로그래밍 과제 2
-> 참고 : https://lktprogrammer.tistory.com/134(FrameLayout 관련)
+> 안드로이드 스튜디오(자바 활용) 공부 - 스마트 모바일 프로그래밍 과제 2              
+> 참고 : https://lktprogrammer.tistory.com/134(FrameLayout 관련)               
 > 참고: https://stackoverflow.com/questions/3482742/what-is-the-difference-between-gravity-and-layout-gravity-in-android(gravity와 layout_gravity관련)
 ### 앱 실행화면
 <img width="300" alt="과제 3 완료 캡쳐" src="https://user-images.githubusercontent.com/68562176/115564401-6595c980-a2f3-11eb-9ba3-46c43a5ec73c.png">    
